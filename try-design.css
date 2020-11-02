@@ -2,3 +2,8 @@ body {
     font-family:ariel, sans-serif; 
     color: mediumturquoise;
 }
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
