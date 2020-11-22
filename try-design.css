@@ -1,18 +1,33 @@
 body {
-    font-family:'Rubik', sans-serif; 
-    color:darksalmon;
-}
-img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-h1{
-    font-family: 'Alef', sans-serif;
-    font-size: 27px;
-    color:brown
+    font-family: 'Rubik', sans-serif;
+    font-size: 400;
+    color: black;
 }
 
-ul{
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Alef', sans-serif;
+    font-size: 30px;
+    color: brown
+}
+
+ul {
     font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 500;
+    color: brown;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
 }
