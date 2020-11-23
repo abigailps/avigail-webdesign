@@ -26,8 +26,32 @@ h2 {
     color: brown;
 
 }
+h3{
+    color:brown;
+}
 
 .container {
     max-width: 800px;
     margin: auto;
+}
+
+.cta {
+    background:lightblue;
+   font-size:21px;
+    padding:20px;
+     text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cta h3{
+    color:black;
+}
+
+.button {
+    background: #08c;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  display: inline-block;
+    
 }
