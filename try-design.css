@@ -12,8 +12,8 @@ img {
 
 h1 {
     font-family: 'Alef', sans-serif;
-    font-size: 30px;
-    color: brown
+    font-size: 40px;
+    color: #b4792b
 }
 
 ul {
@@ -23,11 +23,11 @@ ul {
 h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 500;
-    color: brown;
+    color: #367a00;
 
 }
 h3{
-    color:brown;
+    color:#67a538;
 }
 
 .container {
@@ -36,13 +36,14 @@ h3{
 }
 
 .cta {
-    background:lightblue;
+    background:#f2c5c8;
    font-size:21px;
     padding:20px;
      text-align: center; 
     margin-top: 50px;
     margin-bottom: 50px;
-}
+    overflow: hidden;
+} 
 .cta h3{
     color:black;
 }
@@ -54,4 +55,16 @@ h3{
   padding: 14px;
   display: inline-block;
     
+}
+
+.alignleft {
+    max-width: 40%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+.imgbook {
+    max-width: 160px
+
 }
