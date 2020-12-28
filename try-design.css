@@ -91,17 +91,47 @@ h3 {
 
 }
 
-.news .botton {}
+.news .botton {
+    padding: 5px 14px;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #fff;
+
+}
+
+.news .botton:hover {
+    background: #fff;
+    color: #000;
+}
 
 input {
     font: inherit;
     color: inherit;
-    background: none;
-    border: 2px solid #fff;
+    border: 0;
+    border-bottom: 2px solid;
     padding: 5px;
+    background: none;
+    text-align: center;
+
+
 }
 
-label {
-    margin-left: 20px;
+input:focus {
+    outline: 0;
+    background: rgba(0, 0, 0,0.25);
+}
 
+/* .news input{
+     background: transparent;
+} */
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label span {
+    display: inline-block;
+    width: 100px;
 }
