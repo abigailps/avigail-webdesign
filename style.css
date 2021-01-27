@@ -53,3 +53,18 @@ h1{
     display: block;
     margin: 10px auto;
 }
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:36px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #43a5b3;
+}
+
+.contact {
+    background: #FFEBA3;
+}
