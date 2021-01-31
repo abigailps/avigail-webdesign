@@ -14,9 +14,13 @@ h4,
 }
 
 .about {
-    background: #43a5b3;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/flower%20and%20sunset.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-size: cover;
     font-size: 24px;
-    margin-bottom: 40px;
+    color: #fff; 
 }
 
 .container {
@@ -46,7 +50,10 @@ h1 {
     line-height: 1.1;
 }
 h2{
-    font-size: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: #942f43;
+
 }
 .button {
     color: #fff;
