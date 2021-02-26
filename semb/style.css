@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face{
+    font-family: 'opensans';
+    src: url('fonts/opensans/100/opensanshebrew-light.woff') format('woff');
+      font-weight:100;
+  font-style: normal;
+
+}
+@font-face{
+    font-family: 'spacer';
+    src: url('fonts/spacer/400/fbspacer-regular-webfont.woff') format('woff');
+      font-weight:400;
+  font-style: normal;
+
+}
+@font-face{
+    font-family: 'spacer';
+    src: url('fonts/spacer/700/fbspacer-bold-webfont.woff') format('woff');
+      font-weight:700;
+  font-style: normal;
+
+}
+body {
+  margin: 0;
+  font-family: 'opensans', sans-serif;
+  line-height: 1.5;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'spacer';
+    font-weight: 700;
+}
