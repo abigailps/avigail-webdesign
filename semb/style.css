@@ -1,44 +1,55 @@
 @font-face {
-  font-family: 'opensans';
-  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'yidishkeit';
+    src: url('fonts/yidishkeit/400/YiddishkeitAlefAlefAlef-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'opensans';
-  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face{
-    font-family: 'opensans';
-    src: url('fonts/opensans/100/opensanshebrew-light.woff') format('woff');
-      font-weight:100;
-  font-style: normal;
-
-}
-@font-face{
-    font-family: 'spacer';
-    src: url('fonts/spacer/400/fbspacer-regular-webfont.woff') format('woff');
-      font-weight:400;
-  font-style: normal;
-
-}
-@font-face{
-    font-family: 'spacer';
-    src: url('fonts/spacer/700/fbspacer-bold-webfont.woff') format('woff');
-      font-weight:700;
-  font-style: normal;
-
-}
-body {
-  margin: 0;
-  font-family: 'opensans', sans-serif;
-  line-height: 1.5;
+    font-family: 'almoni';
+    src: url('fonts/almoni-neue/400/almoni-neue-aaa-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-h1{
-    font-size: 70px;
-    font-family: 'spacer';
+@font-face {
+    font-family: 'almoni';
+    src: url('fonts/almoni-neue/700/almoni-neue-aaa-700.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'almoni', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    
+}
+
+.head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/judaika.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    text-align: center;
+}
+
+.head img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'yidishkeit';
+    font-weight: 700;
+    
+}
+
