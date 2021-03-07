@@ -26,18 +26,20 @@ body {
     line-height: 1.5;
     font-size: 20px;
     font-weight: 400;
-    color: #fff;
-    
+    color: #000;
+
 }
 
-.head {
+.banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/judaika.jpg);
-    /* background-position: center; */
+    /* background-position: center 40%; */
     background-size: cover;
     text-align: center;
+    padding: 50px 0;
+    color: #fff;
 }
 
-.head img {
+.banner img {
     max-width: 100%;
     width: auto;
     height: auto;
@@ -48,8 +50,45 @@ body {
 
 h1 {
     font-size: 70px;
-    font-family: 'yidishkeit';
+    font-family: 'almoni';
     font-weight: 700;
+
+}
+h1:after {
+  content: "";
+  background: url(img/line.png) no-repeat;
+  background-size: contain;
+  height: 30px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h2:after {
+  content: "";
+  border-bottom: 3px solid #8f1a39;
+  width: 180px;
+  display: block;
     
 }
 
+.button {
+text-decoration: none;
+  color: #fff;
+  background: #6f1a39;
+  padding: 10px 40px;
+  display: inline-block;
+}
+.button:hover{
+  background: #000;
+  color: #fff;
+
+}
+.container{
+    max-width:940px;
+    margin: auto;
+}
