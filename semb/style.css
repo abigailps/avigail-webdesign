@@ -48,6 +48,11 @@ body {
 
 }
 
+.banner .container{
+    max-width: 700px;
+    font-size: 21px;
+}
+
 h1 {
     font-size: 70px;
     font-family: 'almoni';
@@ -91,4 +96,27 @@ text-decoration: none;
 .container{
     max-width:940px;
     margin: auto;
+
+}
+.features{
+    text-align: center;
+}
+.features ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:56px;
+}
+
+.features img{
+    max-width: 100px;
+}
+
+.features h2:after{
+    margin: auto;
+}
+
+.products {
+    padding: 26px 0;
 }
