@@ -27,7 +27,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: #000;
-
 }
 
 .banner {
@@ -48,7 +47,7 @@ body {
 
 }
 
-.banner .container{
+.banner .container {
     max-width: 700px;
     font-size: 21px;
 }
@@ -59,14 +58,15 @@ h1 {
     font-weight: 700;
 
 }
+
 h1:after {
-  content: "";
-  background: url(img/line.png) no-repeat;
-  background-size: contain;
-  height: 30px;
-  max-width: 300px;
-  display: block;
-  margin: auto;
+    content: "";
+    background: url(img/line.png) no-repeat;
+    background-size: contain;
+    height: 30px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
 }
 
 h2 {
@@ -74,49 +74,62 @@ h2 {
 }
 
 h2:after {
-  content: "";
-  border-bottom: 3px solid #8f1a39;
-  width: 180px;
-  display: block;
-    
+    content: "";
+    border-bottom: 3px solid #8f1a39;
+    width: 180px;
+    display: block;
+
 }
 
 .button {
-text-decoration: none;
-  color: #fff;
-  background: #6f1a39;
-  padding: 10px 40px;
-  display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #6f1a39;
+    padding: 10px 40px;
+    display: inline-block;
 }
-.button:hover{
-  background: #000;
-  color: #fff;
+
+.button:hover {
+    background: #000;
+    color: #fff;
 
 }
-.container{
-    max-width:940px;
+
+.container {
+    max-width: 940px;
     margin: auto;
 
 }
-.features{
+
+.features {
     text-align: center;
+    padding: 34px;
 }
-.features ul{
+
+.features ul {
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:56px;
+    grid-gap: 56px;
 }
 
-.features img{
+.features img {
     max-width: 100px;
 }
 
-.features h2:after{
+.features h2:after {
     margin: auto;
 }
 
 .products {
     padding: 26px 0;
+    background: #c1c1c1;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
 }
