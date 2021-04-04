@@ -30,8 +30,8 @@ body {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/judaika.jpg);
-    /* background-position: center 40%; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/david-holifield-TLZKlOBOsLs-unsplash.jpg);
+    background-position: center 40%;
     background-size: cover;
     text-align: center;
     padding: 50px 0;
@@ -75,22 +75,26 @@ h2 {
 
 h2:after {
     content: "";
-    border-bottom: 3px solid #8f1a39;
+    background: url(img/gold%20line.png) no-repeat;
+    background-size: contain;
+    height: 30px;
+    max-width: 300px;
+    /* border-bottom: 3px solid #8f1a39; */
     width: 180px;
     display: block;
-
 }
 
 .button {
     text-decoration: none;
-    color: #fff;
-    background: #6f1a39;
+    color: #000;
+    background: #f2bc3e;
+    /* background: #6f1a39; */
     padding: 10px 40px;
     display: inline-block;
 }
 
 .button:hover {
-    background: #000;
+    background: #225479;
     color: #fff;
 
 }
@@ -104,6 +108,7 @@ h2:after {
 .features {
     text-align: center;
     padding: 34px;
+    position: relative
 }
 
 .features ul {
@@ -124,7 +129,7 @@ h2:after {
 
 .products {
     padding: 26px 0;
-    background: #c1c1c1;
+     /* background: #42a3d6; */ 
 }
 
 footer {
@@ -133,3 +138,4 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
