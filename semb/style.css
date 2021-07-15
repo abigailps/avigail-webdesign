@@ -114,6 +114,7 @@ h2:after {
     /* background: #6f1a39; */
     padding: 10px 40px;
     display: inline-block;
+    border: solid 0;
 }
 
 .button:hover {
@@ -162,11 +163,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 5px;
+   
 }
 footer img{
     max-width: 40px;
     margin: 0 10px;
 }
+
+
 a{
     color:#fff;
 }
@@ -201,6 +205,7 @@ input, textarea{
     padding: 5px;
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid;
 }
 
 input:focus, textarea:focus{
@@ -229,7 +234,8 @@ lable{
 }
 
 .about img{
-    box-shadow: 0px 0px 8px 1px  #225479;
+    box-shadow: 10px -10px 0px 1px  #f2bc3e;
+    border-radius: 3px;
 }
 
 .caption {
@@ -238,6 +244,16 @@ lable{
     padding: 5px;   
     font-weight: 700;
 }
+
+
+/* .fotorama{
+
+max-width: 100%;
+} */
+
+.slidecontainer{
+   max-width: 100%;
+    }
 
 
 
