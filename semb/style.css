@@ -161,6 +161,11 @@ h2:after {
 
     /* background: #42a3d6; */
 }
+.products .container {
+    max-width: 100%;
+    text-align: center;
+    
+}
 
 footer {
     background: #000;
@@ -263,7 +268,8 @@ max-width: 100%;
 } */
 
 .slidecontainer {
-    max-width: 100%;
+    max-width: 1920px;
+    margin: auto;
 }
 
 
@@ -284,16 +290,21 @@ max-width: 100%;
 
 .container ul {
     list-style: none;
+   
 }
 
-.container li {
-    margin-bottom: 5px;
+.gallery img{
+    display: block;
+    max-width: 100%;
+     
 }
-
-
 .gallery {
+    max-width: 980px;
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: auto;
+   
 }
